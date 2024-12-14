@@ -16,6 +16,9 @@ extension TranslationResultEntity {
         return NSFetchRequest<TranslationResultEntity>(entityName: "TranslationResultEntity")
     }
 
+    @NSManaged var score: Int16
+    @NSManaged public var known: Bool
+    @NSManaged public var reviewDate: Date?
     @NSManaged public var context: String?
     @NSManaged public var count: Int32
     @NSManaged public var id: Int32

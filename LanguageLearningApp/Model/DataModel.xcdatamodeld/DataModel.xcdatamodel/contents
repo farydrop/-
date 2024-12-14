@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23507" systemVersion="24A335" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier=""/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23507" systemVersion="24A335" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="FileEntity" representedClassName="FileEntity" syncable="YES">
+        <attribute name="count" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="originalLanguage" optional="YES" attributeType="String"/>
+        <attribute name="translationLanguage" optional="YES" attributeType="String"/>
+        <relationship name="translation" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="TranslationResultEntity"/>
+    </entity>
+    <entity name="TranslationResultEntity" representedClassName="TranslationResultEntity" syncable="YES">
+        <attribute name="context" optional="YES" attributeType="String"/>
+        <attribute name="count" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="known" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="original" optional="YES" attributeType="String"/>
+        <attribute name="reviewDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="translate" optional="YES" attributeType="String"/>
+        <relationship name="file" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FileEntity"/>
+    </entity>
+</model>

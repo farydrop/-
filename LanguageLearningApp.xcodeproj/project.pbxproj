@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		75151F6B2CFE1432006E7B2A /* FileEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75151F682CFE1432006E7B2A /* FileEntity+CoreDataProperties.swift */; };
+		75151F6C2CFE1432006E7B2A /* TranslationResultEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75151F692CFE1432006E7B2A /* TranslationResultEntity+CoreDataClass.swift */; };
+		75151F6D2CFE1432006E7B2A /* FileEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75151F672CFE1432006E7B2A /* FileEntity+CoreDataClass.swift */; };
+		75151F6E2CFE1432006E7B2A /* TranslationResultEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75151F6A2CFE1432006E7B2A /* TranslationResultEntity+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		75151F2D2CFE1199006E7B2A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +34,10 @@
 		75151F1C2CFE1195006E7B2A /* LanguageLearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanguageLearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75151F2C2CFE1199006E7B2A /* LanguageLearningAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageLearningAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75151F362CFE1199006E7B2A /* LanguageLearningAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageLearningAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75151F672CFE1432006E7B2A /* FileEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		75151F682CFE1432006E7B2A /* FileEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		75151F692CFE1432006E7B2A /* TranslationResultEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TranslationResultEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		75151F6A2CFE1432006E7B2A /* TranslationResultEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TranslationResultEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +86,10 @@
 		75151F132CFE1195006E7B2A = {
 			isa = PBXGroup;
 			children = (
+				75151F672CFE1432006E7B2A /* FileEntity+CoreDataClass.swift */,
+				75151F682CFE1432006E7B2A /* FileEntity+CoreDataProperties.swift */,
+				75151F692CFE1432006E7B2A /* TranslationResultEntity+CoreDataClass.swift */,
+				75151F6A2CFE1432006E7B2A /* TranslationResultEntity+CoreDataProperties.swift */,
 				75151F1E2CFE1195006E7B2A /* LanguageLearningApp */,
 				75151F2F2CFE1199006E7B2A /* LanguageLearningAppTests */,
 				75151F392CFE1199006E7B2A /* LanguageLearningAppUITests */,
@@ -236,6 +251,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75151F6B2CFE1432006E7B2A /* FileEntity+CoreDataProperties.swift in Sources */,
+				75151F6C2CFE1432006E7B2A /* TranslationResultEntity+CoreDataClass.swift in Sources */,
+				75151F6D2CFE1432006E7B2A /* FileEntity+CoreDataClass.swift in Sources */,
+				75151F6E2CFE1432006E7B2A /* TranslationResultEntity+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +415,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LanguageLearningApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4U94K3929M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -424,6 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LanguageLearningApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4U94K3929M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
